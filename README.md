@@ -1,147 +1,147 @@
-# Paint Modificado - Proyecto en Python
+# Modified Paint - Python Project
 
-## Descripción general
+## General Description
 
-Este proyecto consiste en la modificación y mejora del juego Paint utilizando Python y la librería freegames. El objetivo principal fue comprender el funcionamiento del código original, modificar distintas funciones del programa y utilizar herramientas de desarrollo como Git, GitHub y ambientes virtuales en WSL Ubuntu.
+This project consists of a modified and improved version of the Paint game using Python and the freegames library. The main objective was to understand the original code structure, modify different functions of the program, and use development tools such as Git, GitHub, and Python virtual environments in WSL Ubuntu.
 
-El programa permite al usuario dibujar diferentes figuras geométricas en pantalla utilizando el mouse y cambiar tanto colores como grosor de dibujo mediante el teclado. Todas las modificaciones fueron realizadas directamente sobre el archivo original del juego paint.py.
+The program allows the user to draw different geometric shapes on the screen using the mouse and change both colors and line thickness using the keyboard. All modifications were made directly to the original paint.py file.
 
-Además de la parte de programación, el proyecto permitió practicar el uso de control de versiones utilizando Git y GitHub, realizando commits, push y actualización del repositorio remoto desde la terminal de Ubuntu en WSL.
+In addition to programming concepts, this project also helped practice version control using Git and GitHub by creating commits, pushing changes, and updating the remote repository through the Ubuntu WSL terminal.
 
 ---
 
-# Juego original
+# Original Game
 
-El juego original pertenece al paquete freegames de Python y fue obtenido mediante el siguiente comando:
+The original game belongs to the Python freegames package and was obtained using the following command:
 
 freegames copy paint
 
-El archivo original incluía funciones básicas de dibujo, sin embargo algunas funciones se encontraban incompletas y existían varias mejoras posibles tanto visuales como funcionales.
+The original file included basic drawing functions; however, some functions were incomplete and several visual and functional improvements could be added.
 
 ---
 
-# Objetivo del proyecto
+# Project Objective
 
-El objetivo de este proyecto fue:
+The objective of this project was to:
 
-- Comprender la estructura básica de un programa en Python.
-- Modificar código existente.
-- Implementar nuevas funcionalidades.
-- Aprender el uso de ambientes virtuales.
-- Utilizar Git y GitHub desde la terminal.
-- Ejecutar y probar programas gráficos utilizando WSL Ubuntu.
-
----
-
-# Modificaciones realizadas
-
-Durante el desarrollo del proyecto se realizaron diversas modificaciones al código original del juego Paint.
-
-## 1. Agregado de nuevos colores
-
-Se añadieron nuevos colores disponibles para el usuario, permitiendo una experiencia más completa y personalizada al momento de dibujar.
-
-Los colores agregados fueron:
-
-- Morado
-- Naranja
-- Rosa
-- Café
-- Amarillo
-
-Cada color fue asociado a una tecla específica para facilitar su uso durante la ejecución del programa.
+- Understand the basic structure of a Python program.
+- Modify existing code.
+- Implement new functionalities.
+- Learn how to use Python virtual environments.
+- Use Git and GitHub from the terminal.
+- Execute and test graphical programs using WSL Ubuntu.
 
 ---
 
-## 2. Implementación de la función de círculo
+# Modifications Made
 
-Se completó la función encargada de dibujar círculos, la cual originalmente no se encontraba terminada en el código base.
+Several modifications were implemented during the development of the project.
 
-Esta función permite crear círculos utilizando la distancia entre dos puntos seleccionados por el usuario como referencia para el radio.
+## 1. New Colors Added
 
----
+New colors were added to provide a more complete and personalized drawing experience.
 
-## 3. Implementación de rectángulos
+The new colors included:
 
-Se agregó una nueva función para dibujar rectángulos, permitiendo ampliar las herramientas geométricas disponibles dentro del juego.
+- Purple
+- Orange
+- Pink
+- Brown
+- Yellow
 
-El usuario puede seleccionar la figura y dibujarla directamente sobre la ventana gráfica.
-
----
-
-## 4. Implementación de triángulos
-
-Se desarrolló una nueva función para dibujar triángulos utilizando coordenadas obtenidas mediante el mouse.
-
-Esta modificación permite generar nuevas formas geométricas dentro del programa.
+Each color was assigned to a specific keyboard key for easier access during execution.
 
 ---
 
-## 5. Cambio dinámico de grosor
+## 2. Circle Function Completed
 
-Se agregó un sistema para modificar el grosor de las líneas utilizando las flechas del teclado.
+The function responsible for drawing circles was completed since it was originally unfinished in the base code.
 
-- Flecha arriba: aumenta el grosor.
-- Flecha abajo: disminuye el grosor.
-
-Esto mejora considerablemente la personalización del dibujo.
+This function allows the user to create circles using the distance between two selected points as the radius reference.
 
 ---
 
-## 6. Mejoras visuales
+## 3. Rectangle Function Added
 
-Se ocultó el cursor de turtle utilizando la función:
+A new rectangle drawing function was implemented, expanding the available geometric tools inside the game.
+
+The user can select the rectangle option and draw it directly on the graphical window.
+
+---
+
+## 4. Triangle Function Added
+
+A new triangle drawing function was developed using coordinates obtained from mouse clicks.
+
+This modification allows the creation of additional geometric figures within the program.
+
+---
+
+## 5. Dynamic Width Control
+
+A system to modify line thickness dynamically using keyboard arrows was added.
+
+- Up arrow: increases thickness.
+- Down arrow: decreases thickness.
+
+This significantly improves drawing customization.
+
+---
+
+## 6. Visual Improvements
+
+The turtle cursor was hidden using the following function:
 
 hideturtle()
 
-Esto permite que la ventana gráfica tenga una apariencia más limpia y profesional durante la ejecución.
+This provides a cleaner and more professional visual appearance during execution.
 
 ---
 
-## 7. Organización y documentación del código
+## 7. Code Organization and Documentation
 
-El código fue reorganizado y comentado para mejorar la legibilidad y facilitar futuras modificaciones.
+The code was reorganized and documented to improve readability and facilitate future modifications.
 
-También se agregaron nombres de variables más descriptivos y separación lógica entre funciones.
-
----
-
-# Controles del programa
-
-## Selección de figuras
-
-- l = línea
-- s = cuadrado
-- c = círculo
-- r = rectángulo
-- t = triángulo
+More descriptive variable names and better function separation were also implemented.
 
 ---
 
-## Selección de colores
+# Program Controls
 
-- k = negro
-- b = azul
-- e = rojo
-- g = verde
-- y = amarillo
-- p = morado
-- o = naranja
-- i = rosa
-- n = café
+## Shape Selection
+
+- l = line
+- s = square
+- c = circle
+- r = rectangle
+- t = triangle
 
 ---
 
-## Control de grosor
+## Color Selection
 
-- Flecha arriba = aumentar grosor
-- Flecha abajo = disminuir grosor
+- k = black
+- b = blue
+- e = red
+- g = green
+- y = yellow
+- p = purple
+- o = orange
+- i = pink
+- n = brown
 
 ---
 
-# Tecnologías utilizadas
+## Width Control
 
-Durante el desarrollo del proyecto se utilizaron las siguientes herramientas y tecnologías:
+- Up arrow = increase thickness
+- Down arrow = decrease thickness
+
+---
+
+# Technologies Used
+
+The following technologies and tools were used during the development of the project:
 
 - Python 3
 - Turtle Graphics
@@ -153,50 +153,56 @@ Durante el desarrollo del proyecto se utilizaron las siguientes herramientas y t
 
 ---
 
-# Comandos utilizados
+# Commands Used
 
-## Activación del ambiente virtual
+## Virtual Environment Activation
 
 source ./games/bin/activate
 
 ---
 
-## Ejecución del programa
+## Program Execution
 
 python3 paint.py
 
 ---
 
-## Comandos de Git utilizados
+## Git Commands Used
 
 git add .
 
-git commit -m "Modificaciones al juego"
+git commit -m "Game modifications"
 
 git push
 
 ---
 
-# Aprendizajes obtenidos
+# Knowledge and Skills Acquired
 
-Gracias a este proyecto fue posible comprender mejor el funcionamiento de Python y la modificación de programas ya existentes.
+This project helped improve understanding of Python programming and modification of existing software.
 
-También se aprendió a trabajar utilizando control de versiones con Git y GitHub, así como el uso de ambientes virtuales para mantener organizadas las dependencias del proyecto.
+It also provided practical experience with version control systems such as Git and GitHub, as well as the use of virtual environments for dependency management.
 
-Además, el proyecto ayudó a familiarizarse con el entorno Linux mediante WSL Ubuntu y el uso de comandos desde terminal.
-
----
-
-# Conclusión
-
-El proyecto permitió modificar exitosamente el juego Paint original añadiendo nuevas funciones, colores y mejoras visuales.
-
-Se logró integrar conocimientos de programación, manejo de terminal, ambientes virtuales y control de versiones, obteniendo un programa funcional y más completo que la versión original.
-
-Finalmente, el proyecto ayudó a desarrollar habilidades importantes relacionadas con desarrollo de software y trabajo colaborativo utilizando herramientas profesionales.
+Additionally, the project helped develop familiarity with Linux environments using Ubuntu WSL and terminal-based workflows.
 
 ---
 
-# Autor
+# Conclusion
 
-Ivan Hernandez 
+The project successfully modified the original Paint game by adding new functions, colors, and visual improvements.
+
+Programming concepts, terminal usage, virtual environments, and version control tools were integrated to create a more complete and functional version of the original program.
+
+Finally, the project contributed to developing important software development skills and familiarity with professional development tools.
+
+---
+
+# Author
+
+Ivan Hernandez
+
+
+
+
+
+ 
