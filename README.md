@@ -30,7 +30,7 @@ The objective of this project was to:
 - Learn how to use Python virtual environments.
 - Use Git and GitHub from the terminal.
 - Execute and test graphical programs using WSL Ubuntu.
-
+- Improve collaborative workflow using GitHub repositories.
 ---
 
 # Modifications Made
