@@ -1,10 +1,10 @@
-# Modified Paint - Python Project
+odified Paint - Python Project
 
 ## General Description
 
 This project consists of a modified and improved version of the Paint game using Python and the freegames library. The main objective was to understand the original code structure, modify different functions of the program, and use development tools such as Git, GitHub, and Python virtual environments in WSL Ubuntu.
 
-The program allows the user to draw different geometric shapes on the screen using the mouse and change both colors and line thickness using the keyboard. All modifications were made directly to the original paint.py file.
+The program allows the user to draw different geometric shapes on the screen using the mouse and change both colors and line thickness using the keyboard. most modifications were implemented directly in the original paint.py source file.
 
 In addition to programming concepts, this project also helped practice version control using Git and GitHub by creating commits, pushing changes, and updating the remote repository through the Ubuntu WSL terminal.
 
