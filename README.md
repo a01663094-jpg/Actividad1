@@ -73,7 +73,7 @@ The user can select the rectangle option and draw it directly on the graphical w
 
 A new triangle drawing function was developed using coordinates obtained from mouse clicks.
 
-This modification allows the creation of additional geometric figures within the program.
+This feature expands the available drawing options and improves user interaction with the application.
 
 ---
 
