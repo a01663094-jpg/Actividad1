@@ -25,7 +25,7 @@ def square(start, end):
     down()
     begin_fill()
 
-    for count in range(4):
+    for _ in range(4):
         forward(end.x - start.x)
         left(90)
 
@@ -119,10 +119,11 @@ onscreenclick(tap)
 
 # Figuras
 onkey(lambda: store('shape', line), 'l')
-onkey(lambda: store('shape', square), 's')
+onkey(lambda: store('shape', triangle), 't'
 onkey(lambda: store('shape', circle_draw), 'c')
 onkey(lambda: store('shape', rectangle), 'r')
-onkey(lambda: store('shape', triangle), 't'
+onkey(lambda: store('shape', square), 's')
+      
 
 # Colores
 onkey(lambda: color('black'), 'k')
