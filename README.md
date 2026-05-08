@@ -39,7 +39,7 @@ Several gameplay and visual modifications were implemented during the developmen
 
 ## 1. New Colors Added
 
-Additional colors were added to improve the drawing experience and make the interface more interactive.
+Additional colors were implemented to create a more dynamic and user-friendly drawing experience.
 
 The new colors included:
 
