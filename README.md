@@ -35,7 +35,7 @@ The objective of this project was to:
 
 # Modifications Made
 
-Several modifications were implemented during the development of the project.
+Several gameplay and visual modifications were implemented during the development of the project.
 
 ## 1. New Colors Added
 
