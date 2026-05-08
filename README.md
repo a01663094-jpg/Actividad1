@@ -134,7 +134,7 @@ More descriptive variable names and better function separation were also impleme
 ---
 
 ## Width Control
-
+The thickness changes are reflected immediately while drawing on the screen.
 - Up arrow = increase thickness
 - Down arrow = decrease thickness
 
