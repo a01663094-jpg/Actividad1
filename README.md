@@ -84,7 +84,8 @@ A system to modify line thickness dynamically using keyboard arrows was added.
 - Up arrow: increases thickness.
 - Down arrow: decreases thickness.
 
-This significantly improves drawing customization.
+This feature provides better control over drawing precision and visual appearance.
+
 
 ---
 
